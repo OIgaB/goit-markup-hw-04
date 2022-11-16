@@ -141,7 +141,6 @@ padding-right: 15px;
     padding-bottom: 60px;
     background-color: #2F303A;
 }
-
 .footer-wrap {
     display: flex;
 }
@@ -272,7 +271,7 @@ padding-right: 15px;
     margin: 0 auto 30px auto;
 }
 
-/* Цінності студії */
+/* Цінності (переваги) студії */
 .values-container {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -299,7 +298,11 @@ padding-right: 15px;
 
 .icon-wrap {
     background-color: var(--secondary-bg-color);
-    padding: 25px 100px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     margin-bottom: 30px;
 }
@@ -339,7 +342,6 @@ padding-right: 15px;
     justify-content: center;
     gap: 30px;
 }
-
 .employee-section {
     background-color: var(--tertiary-bg-and-text-color);
     width: calc((100% - 90px) / 4);
@@ -400,7 +402,6 @@ padding-right: 15px;
     line-height: 1.17;
     text-align: center;
 }
-
 .clients-section-list {
     display: flex;
     gap: 30px;
@@ -412,7 +413,6 @@ padding-right: 15px;
     justify-content: center;
     height: 92px;
     width: 170px;
-    padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px; 
     fill: #AFB1B8;
@@ -422,28 +422,21 @@ padding-right: 15px;
     fill: var(--primary-accent-bg-and-text-color);
 }
 
-/* .icon-client5 {
-    padding: 6.77px 21.46px 7.8px 22px;
-} */
-
 /* ---------------- Сторінка Портфоліо ---------------- */
 /* Перелік проектів сторінки Портоліо*/
 .main-container {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 .projects-container {
     margin-left: auto;
     margin-right: auto;
 }
-
 .projects-set {
     display: flex;
     flex-wrap: wrap;
     gap: 30px; 
 }
-
 .project-item {
     background-color: var(--tertiary-bg-and-text-color);
     width: calc((100% - 60px) / 3);
@@ -456,14 +449,12 @@ padding-right: 15px;
     max-width: 100%;
     height: auto;
 }
-
 .project {
     padding-top: 20px; 
     padding-bottom: 20px;
     padding-left: 24px; 
     border: 1px solid #EEEEEE;
 }
-
 /* Заголовки під зображеннями проектів */
 .projet-title {
     font-size: 18px;
